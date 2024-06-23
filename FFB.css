@@ -742,3 +742,10 @@ padding:10px;
 .banner-card{
 position:relative;
 }
+#preloader{
+  background: #ffffff url(Loading.gif) no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}

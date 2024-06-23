@@ -19,11 +19,20 @@
     <link rel="icon" href="Update.png" type="image/x-icon">
   </head>
   <body>
+    <div id="preloader"></div>
     <header style="background-color: orange;">
       <div id="brand">
         <img title="WonderBible HomePage" style="display: inline-block; border-color: blue; float:left; margin-right: 20px; margin-bottom: 0; margin-left:20px; cursor:pointer;" src="WB Logo.png" onclick="document.location='https://wonderbible.world'" width="60">  
       </div>
     </header>
+    <script>
+      var loader = document.getElementById("preloader");
+
+      window.addEventListener("load", function(){
+        
+        loader.style.display = "none";
+      })
+     </script>
     </body>
       <div>
         <p style="text-align:center;"><img style="margin-top: 20PX;" src="Update.png" width="250"> <p style="font-size:50px; font-weight: bold; text-align:center; margin-bottom:100px; text-decoration:underline; color:dodgerblue;">Updates</p></p>
@@ -54,11 +63,11 @@
         <div style="margin-top: 100px;">
         </div>
         <div style="margin-top:0; background-color:black; height:430px; color:white;" class="sm">
-          <a href="https://youtube.com/@Valt-Wel"><i class="fab fa-youtube"></i></a>
+          <a href="https://youtube.com/@Valt-Wel?sub_confirmation=1"><i class="fab fa-youtube"></i></a>
           <a href="https://github.com/WonderBible"><i class="fab fa-github"></i></a>
-          <a href="https://discord.gg/8C4h8aFPt3"><i class="fab fa-discord"></i></a>
+          <a href="https://discord.gg/mYCCebZV"><i class="fab fa-discord"></i></a>
           <a href="https://t.me/wonderbible"><i class="fab fa-telegram"></i></a>
-          <a href="https://instagram.com/valt_wel"><i class="fab fa-instagram"></i></a>
+          <a href="https://wonderbible.world/socialmedia"><i class="fab fa-next"></i>></a>
           <p class="we" style="margin-top: 40px; cursor:pointer; font-weight:bold;" onclick="document.location='https://wonderbible.world/old'">The Old/1st Version Of WonderBible 👍</p>
           <div class="select-menu">
             <div class="select">
