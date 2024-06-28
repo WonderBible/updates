@@ -743,7 +743,7 @@ padding:10px;
 position:relative;
 }
 #preloader{
-  background: #ffffff url(Loading.gif) no-repeat center center;
+  background: #ffffff url(https://wonderbible.world/Loading.gif) no-repeat center center;
   height: 100vh;
   width: 100%;
   position: fixed;
