@@ -25,14 +25,6 @@
         <img title="WonderBible HomePage" style="display: inline-block; border-color: blue; float:left; margin-right: 20px; margin-bottom: 0; margin-left:20px; cursor:pointer;" src="WB Logo.png" onclick="document.location='https://wonderbible.world'" width="60">  
       </div>
     </header>
-    <script>
-      var loader = document.getElementById("preloader");
-
-      window.addEventListener("load", function(){
-        
-        loader.style.display = "none";
-      })
-     </script>
     </body>
       <div>
         <p style="text-align:center;"><img style="margin-top: 20PX;" src="Update.png" width="250"> <p style="font-size:50px; font-weight: bold; text-align:center; margin-bottom:100px; text-decoration:underline; color:dodgerblue;">Updates</p></p>
@@ -193,6 +185,14 @@
         </div>
           <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         </div>
+        <script>
+          var loader = document.getElementById("preloader");
+    
+          window.addEventListener("load", function(){
+            
+            loader.style.display = "none";
+          })
+         </script>
 </html>
 <script>
   if('serviceWorker' in navigator) {
